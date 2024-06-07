@@ -1,0 +1,12 @@
+1)
+
+To save space, separate the fine location of a track location from the coarse location.
+
+2)
+
+To save space, track the goalocation in a separate entity as the inconsistency of movement might
+result in a lot of extra object containing the same information (e.g. if it stopped moving)
+
+3)
+
+To improve performance should cache entity ids
